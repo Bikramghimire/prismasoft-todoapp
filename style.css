@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: aqua;
+  height: 100vh;
+  overflow: hidden;
+}
+.todo-container {
+  max-width: 600px;
+  height: 500px;
+  margin: 0 auto;
+  margin: 20px auto;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 10px;
+}
+.js-input {
+  margin-top: 10px;
+  padding: 8px 15px;
+  width: 400px;
+  border: 1px solid #3333;
+}
+.js-render {
+  padding: 20px;
+}
+ul {
+  list-style: none;
+}
+.todo-done {
+  text-decoration: line-through;
+}
